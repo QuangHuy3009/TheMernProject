@@ -10,12 +10,13 @@ const Section= styled.section`
 
 `;
 const Container= styled.div`
-    padding:3rem calc((100vw - 1300px)/2);
+    padding:3rem 3rem;
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 800px;
     @media screen and (max-width:768px) {
         grid-template-columns: 1fr;
+        padding:0;
     }
 `;
 const ColoumLeft= styled.div`
@@ -31,6 +32,9 @@ const ColoumLeft= styled.div`
     }
     p {
         margin-bottom:2rem;
+    }
+    @media screen and (max-width:768px) {
+       padding: 3rem 3rem;
     }
 `;
 const ColoumRight= styled.div`
