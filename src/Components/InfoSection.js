@@ -45,6 +45,7 @@ const ColoumRight= styled.div`
     padding:1rem 0rem 2rem 2rem;
     @media screen and (max-width: 768px) {
         order: ${({reverse}) => (reverse ? '2': '1' )};
+        padding: 0rem;
     }
     img {
         width:100%;
